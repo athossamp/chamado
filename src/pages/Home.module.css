@@ -1,0 +1,135 @@
+.totalContainer {
+  margin: 0 128px;
+  font-family: "Nunito";
+  font-weight: 700;
+  color: white;
+}
+
+.containerImageBackground {
+  display: inline-block;
+}
+.containerImage {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Garante que a imagem ocupe todo o espaço do container */
+  height: auto;
+  z-index: -1;
+  object-fit: cover;
+  max-height: 100vh;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%; /* Garante que a sobreposição cubra toda a imagem */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.formContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clienteFormContainer {
+  display: flex;
+  flex-direction: column;
+}
+.autoComplete {
+  color: white;
+  border-color: #f76100;
+}
+.inputModelStyle {
+  margin: 0 8px 0 0;
+}
+.inputModelStyleDesc {
+  margin: 0 8px 0 0;
+}
+.clienteFormContainer span {
+  margin-bottom: 8px;
+}
+.clienteFormContainer input {
+  margin-bottom: 8px;
+}
+.inputUsuario {
+  margin: 0 8px 0 0;
+}
+.chamadoFormContainer {
+  display: flex;
+  flex-direction: column;
+}
+.chamadoFormContainer span {
+  margin-bottom: 8px;
+}
+.chamadoFormContainer input {
+  margin-bottom: 8px;
+}
+.chamadoFormContainer select {
+  margin-bottom: 8px;
+}
+.desenvolvimentoFormContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  margin-bottom: 8px;
+}
+.desenvolvimentoFormContainer span {
+  margin-bottom: 8px;
+}
+.desenvolvimentoFormContainer select {
+  margin-bottom: 8px;
+}
+
+.solucaoFormContainer {
+  display: flex;
+  flex-direction: column;
+}
+.solucaoFormContainer span {
+  margin-bottom: 8px;
+}
+.solucaoFormContainer input {
+  margin-bottom: 8px;
+}
+.solucaoFormContainer textarea {
+  margin-bottom: 8px;
+}
+.inputFile {
+  background-color: #151719;
+  border-radius: 8px;
+  font-family: "Nunito";
+}
+.inputFile::file-selector-button {
+  background-color: #f76100;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 8px 12px;
+  padding: 4px 23px;
+}
+.buttonSubmit {
+  display: flex;
+}
+.buttonVermelhoPosicao {
+  margin: 0 10px 0 0;
+}
+
+.planilhaContainer {
+  width: 100%;
+  margin-top: 24px;
+  background-color: #141518;
+}
+.planilha {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+  margin: 0 128px;
+  font-family: "Nunito";
+}
+.inputModelStyleFuncionario {
+  margin: 0 0 8px 0;
+}

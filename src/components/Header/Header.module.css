@@ -1,0 +1,21 @@
+header {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 21px 0;
+  font-family: "Nunito";
+  font-weight: 400;
+}
+.headerMenu {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.headerMenu a {
+  padding: 0 24px;
+}
+.headerMenuItem {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,18 @@
+.button {
+  padding: 8px 22px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-family: "Nunito";
+  font-weight: 700;
+  cursor: pointer;
+}
+.vermelho {
+  background-color: #ef4444;
+}
+.preto {
+  background-color: #26272b;
+}
+.laranja {
+  background-color: #f76100;
+}

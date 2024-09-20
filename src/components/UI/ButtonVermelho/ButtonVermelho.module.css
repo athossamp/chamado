@@ -1,0 +1,10 @@
+.buttonVermelho {
+  padding: 8px 22px;
+  background-color: #EF4444;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-family: 'Nunito';
+  font-weight: 700;
+  cursor: pointer;
+}

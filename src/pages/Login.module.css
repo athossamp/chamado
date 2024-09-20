@@ -1,0 +1,27 @@
+.formContainer {
+  min-height: 72vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #141518;
+}
+.formInfo {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f76100;
+  padding: 24px;
+  border-radius: 8px;
+}
+.tecSenha {
+  -webkit-text-security: disc;
+  text-security: disc;
+}
+.loginTitle {
+  color: white;
+  font-family: "Nunito";
+}
+.errorFallback {
+  color: white;
+  font-family: "Nunito";
+}
